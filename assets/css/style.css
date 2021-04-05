@@ -1,0 +1,36 @@
+
+.widget1
+{
+    width: 600px;
+    background-color: #4CCDDB;
+    
+}
+.legend1
+{
+    background-color: #4CCDDB;   
+}
+.widget2
+{
+    width: 600px;
+    background-color: #49B5F2;
+}
+.legend2
+{
+    background-color: #49B5F2;
+
+}
+
+.widget3
+{
+    width: 600px;
+    background-color: #4682E8;
+}
+.legend3
+{
+    background-color: #4682E8;
+
+}
+.form
+{
+    color: black;
+}

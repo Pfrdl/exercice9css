@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/style.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice6</title>
+</head>
+<body>
+<form method="POST" action="get.php" class="form">
+    <fieldset class="widget1">
+    <legend class="legend1">Votre identité</legend>
+    <label for="civilité">
+      <P></P>  
+        <span>1. Civilité</span>
+      </label>
+      <select id="civilité" name="civilité">
+        <option value="MR">Mr</option>
+        <option value="MME">Mme</option>
+      </select><br>
+ 
+
+    <label for="nom">2. Nom</label>: <input type="text" name="Nom" id="Nom" placeholder="Nom"><br>
+    <label for="prénom">3. Prénom</label> : <input type="text" name="prénom" id="Prénom" placeholder="Prénom"><br>
+    <label for="adresse mail">4. Adresse Mail</label> : <input type="mail" name="mail" id="adresse mail" placeholder="Adresse Mail">
+    </p>
+    </fieldset>
+
+    <fieldset class="widget2">
+        <legend class="legend2">Adresse de Livraison</legend>
+    <p>
+    <label for="Adresse">1. Adresse</label> : <textarea name="Adresse" id="Adresse" cols="30" rows="5" placeholder="70 rue des Jacobins 80000 Amiens"></textarea><br>
+    <label for="code postal">2. Code Postal</label> : <input type="text" name="code postal" id="code postal" placeholder="Code Postal" ><br>
+    <label for="ville">3. Ville</label> : <input type="text" name="ville" id="ville" placeholder="Amiens"  >
+    </p>     
+    </fieldset>
+
+    <fieldset class="widget3">
+    <legend class="legend3">Informations de règlement</legend>
+    
+    <span>1. Type de carte bancaire :</span>
+    <ul>
+        <li>
+          <label for="title_1">
+            <input type="radio" id="VISA" name="VISA" value="VISA" >
+            VISA
+          </label>
+        </li>
+        <li>
+          <label for="title_2">
+            <input type="radio" id="title_2" name="title" value="Mme.">
+            MasterCard
+          </label>
+        </li>
+    </ul>
+    <label for="numéro carte">2. Numéro de carte</label> : <input type="text" name="cartebancaire" id="cartebancaire" placeholder="Numéro de carte" ><br>
+    <label for="code de sécurité">3. Code de sécurité</label> : <input type="text" name="code de sécurité" id="code de sécurité" placeholder="Code de sécurité"> <br>
+    <label for="titulaire">4. Nom du titulaire</label> : <input type="text" name="titulaire" id="titualire" placeholder="Nom du titulaire"><br>
+
+    <select name="enregistrer la carte" id="enregistrer la carte"> 
+        <option value="oui">Oui</option>
+        <option value="non">non</option>
+    </select>
+    <span>Enregistrer ma carte bancaire?</span>
+
+    </fieldset>
+
+</form>
+<button type="submit">J'achète !</button> 
+</html>
