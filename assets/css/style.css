@@ -4,6 +4,7 @@
     width: 600px;
     background-color: #4CCDDB;
     
+    
 }
 .legend1
 {
@@ -33,4 +34,19 @@
 .form
 {
     color: black;
+    line-height: 200%;
+}
+.marge1
+{
+    padding: 20px;
+    
+}
+.marge2
+{
+    padding: 40px;
+}
+.dot
+{
+    list-style: none;
+    line-height: 200%;
 }
